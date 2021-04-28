@@ -4,6 +4,7 @@ const router = express.Router();
 
 var response = {
   firstname:"shanmukha",
+  cv:"https://drive.google.com/file/d/1t8q9pkotPoC44w5uDvcD8degmWg1Yx4J/view?usp=sharing",
   lastname:"mangadahalli siddaramu",
   img:"C:/Users/mangadsa/Documents/myapp/myappbe/shaan.jpg",
   title:"Intern in the field of RF and SATCOM Systems at Fraunhofer IIS",
@@ -157,6 +158,14 @@ var response = {
       name:"Athletic (Long Distance Runner), Basketball Player, Movie Making, Painting",
     },
   ],
+  contacts:[
+    
+    {url:'mailto:shanmukha.krish123@gmail.com', icon:'mdi-gmail'},
+        {url:'https://www.linkedin.com/in/shanmukha-m-s/', icon:'mdi-linkedin'},
+        {url:'https://www.instagram.com/shaan_gowda_ms/', icon:'mdi-instagram'},
+        {url:'https://github.com/shanmukhams', icon:'mdi-github'},
+        
+  ]
 }
 
 router.get('/', async (req, res) => {
