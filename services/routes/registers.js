@@ -16,7 +16,7 @@ var response = {
       title:"Intern in the field of RF and SATCOM Systems - GUI Development",
       type:"Internship",
       company:"Fraunhofer IIS",
-      location:"Erlangen, Bavaria, Germany",
+      location:"Erlangen, Germany",
       startdate:"01.02.2021",
       enddate:"30.06.2021",
       tasks:["Support research and development activities through hardware programming (C, Python). Development of GUI using NodeJS and VueJS."]
@@ -25,7 +25,7 @@ var response = {
       title:"Research-Assistant in IoT Development",
       type:"Work-Student",
       company:"EAH Jena",
-      location:"Erlangen, Bavaria, Germany",
+      location:"Jena, Germany",
       startdate:"01.05.2020",
       enddate:"30.11.2020",
       tasks:["Developing IoT Projects involving Embedded systems (microcontroller- Raspberry pi, Esp32 and Teensy) with Wireless communication and Cameras for controlling the remote vehicle and getting the live camera feed. Created Web Interface for Camera Feed and controlling the remote vehicle with NodeJS, Sockets and ReactJS."]
@@ -162,7 +162,6 @@ var response = {
     
     {url:'mailto:shanmukha.krish123@gmail.com', icon:'mdi-gmail'},
         {url:'https://www.linkedin.com/in/shanmukha-m-s/', icon:'mdi-linkedin'},
-        {url:'https://www.instagram.com/shaan_gowda_ms/', icon:'mdi-instagram'},
         {url:'https://github.com/shanmukhams', icon:'mdi-github'},
         
   ]
